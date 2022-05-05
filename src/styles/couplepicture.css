@@ -1,0 +1,26 @@
+.couplepicture {
+  position: relative;
+  width: 100vw;
+  height: 30em;
+  background: no-repeat center center;
+  background-image: url('../img/boritokep.jpg');
+  background-size: cover;
+}
+
+.couplepicture::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  pointer-events: none;
+}
+
+.maintitle {
+  position: absolute;
+  top: 2em;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
+
+.waterbrush {
+	font-family: "Water Brush", cursive;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Roseville";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	/* src: url("Roseville.otf"); */
+	src: url("Roseville.woff2") format("woff2"),
+		url("Roseville.woff") format("woff");
+}
+
+.roseville {
+	font-family: "Roseville", cursive;
+	font-weight: 100;
+}
