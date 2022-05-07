@@ -1,31 +1,41 @@
 :root {
   --info-margin: 10em;
 }
-.info_container {
+
+.card {
+  position: relative;
 	margin: var(--info-margin) auto;
-  padding: 5em 1em;
+  padding: 0;
   font-size: 1em;
   text-align: center;
-	width: 90%;
+	width: 100%;
   max-width: 40em;
 	height: fit-content;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
-  position: relative;
+  background-color: white;
 }
 
-.z1 {
-  position: relative;
-  z-index: 1;
+.info_container {
+  padding: 2em 1em 4em 1em;
+  max-width: 30em;
+  margin: 0 auto;
 }
 
-.z2 {
-  position: relative;
-  z-index: 2;
+.bouquet1 {
+  width: 20em;
+  position: absolute;
+  top: calc(var(--info-margin) * (-1) - 1em);
+  left: -5em;
+  transform: rotate(20deg) scaleX(-1);
 }
 
-.z3 {
-  position: relative;
-  z-index: 3;
+.bouquet2 {
+  /* display: none; */
+  width: 15em;
+  position: absolute;
+  bottom: -5em;
+  right: -7em;
+  transform: rotate(20deg) scale(1);
 }
 
 .invitation {
@@ -39,29 +49,48 @@
 }
 
 .announce {
+  position: relative;
   font-size: 1em;
 }
 
 .the_date {
+  position: relative;
   font-size: 1.5em;
+  font-weight: 400;
 }
 
 .eternal {
+  position: relative;
   font-size: 1em;
 }
 
-.bouquet1 {
-  width: 20em;
-  position: absolute;
-  top: calc(var(--info-margin) * (-1) - 1em);
-  left: -5em;
-  transform: rotate(20deg) scaleX(-1);
+.happening {
+  position: relative;
+  font-size: 1em;
+  padding: 1em 0;
 }
 
-.bouquet2 {
-  width: 15em;
-  position: absolute;
-  bottom: -5em;
-  right: -7em;
-  transform: rotate(20deg) scale(1);
+.happening_time {
+  font-size: 1.2em;
+}
+
+
+.line {
+  margin: 2em auto 0 auto;
+  padding: .3em 0;
+  width: 10em;
+  height: 0;
+  border-top: 1px solid black;
+}
+
+.come {
+  position: relative;
+  font-size: 2em;
+  padding: 1em 0;
+}
+
+.gift {
+  position: relative;
+  font-size: 1em;
+  font-style: italic !important;
 }
