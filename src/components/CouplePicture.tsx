@@ -6,7 +6,7 @@ const CouplePicture = () => {
 	return (
 		<>
 			<div className='couplepicture'/>
-			<h1 className="roseville maintitle">Adri &amp; Peti</h1>
+			<h1 className="roseville maintitle">Adri&nbsp;&amp;&nbsp;Peti</h1>
 		</>
 	);
 };

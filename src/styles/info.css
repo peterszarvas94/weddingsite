@@ -1,0 +1,67 @@
+:root {
+  --info-margin: 10em;
+}
+.info_container {
+	margin: var(--info-margin) auto;
+  padding: 5em 1em;
+  font-size: 1em;
+  text-align: center;
+	width: 90%;
+  max-width: 40em;
+	height: fit-content;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  position: relative;
+}
+
+.z1 {
+  position: relative;
+  z-index: 1;
+}
+
+.z2 {
+  position: relative;
+  z-index: 2;
+}
+
+.z3 {
+  position: relative;
+  z-index: 3;
+}
+
+.invitation {
+  position: relative;
+  font-size: 3em;
+}
+
+.dear_all {
+  position: relative;
+  font-size: 1.5em;
+}
+
+.announce {
+  font-size: 1em;
+}
+
+.the_date {
+  font-size: 1.5em;
+}
+
+.eternal {
+  font-size: 1em;
+}
+
+.bouquet1 {
+  width: 20em;
+  position: absolute;
+  top: calc(var(--info-margin) * (-1) - 1em);
+  left: -5em;
+  transform: rotate(20deg) scaleX(-1);
+}
+
+.bouquet2 {
+  width: 15em;
+  position: absolute;
+  bottom: -5em;
+  right: -7em;
+  transform: rotate(20deg) scale(1);
+}

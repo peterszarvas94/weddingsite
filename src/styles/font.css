@@ -2,7 +2,8 @@
 
 .waterbrush {
 	font-family: "Water Brush", cursive;
-	font-weight: normal;
+	font-style: normal;
+	font-weight: 400;
 }
 
 @font-face {
@@ -10,12 +11,30 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	/* src: url("Roseville.otf"); */
-	src: url("Roseville.woff2") format("woff2"),
-		url("Roseville.woff") format("woff");
+	src:
+		url("../fonts/roseville/Roseville.otf"),
+		url("../fonts/roseville/Roseville.woff2") format("woff2"),
+		url("../fonts/roseville/Roseville.woff") format("woff");
 }
 
 .roseville {
 	font-family: "Roseville", cursive;
-	font-weight: 100;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+.spectral {
+	font-family: 'Spectral SC', serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Martel&display=swap');
+
+.martel {
+	font-family: 'Martel', serif;
+	font-style: normal;
+	font-weight: 400;
 }

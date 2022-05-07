@@ -1,11 +1,19 @@
 import React from 'react';
 import './App.css';
 import CouplePicture from './components/CouplePicture';
+import Info from './components/Info';
+import RSVP from './components/RSVP';
 
 function App() {
   return (
     <div className="App">
-      <CouplePicture/>
+      <header>
+        <CouplePicture/>
+      </header>
+      <main>
+        <Info/>
+        <RSVP/>
+      </main>
     </div>
   );
 }
