@@ -1,13 +1,15 @@
 .couplepicture {
   position: relative;
   width: 100vw;
-  height: 30em;
+  height: 25em;
   background: no-repeat center center;
-  background-image: url('../img/boritokep.jpg');
+  background-image: url('../img/boritokep2.jpg');
   background-size: cover;
+  display: grid;
+  align-items: center;
 }
 
-.couplepicture::after {
+.couplepicture::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -17,10 +19,11 @@
 }
 
 .maintitle {
-  position: absolute;
-  top: 2em;
+  position: relative;
   width: 100%;
   text-align: center;
   color: white;
   font-size: 4em;
+  text-shadow: 2px 2px 4px #222;
+
 }

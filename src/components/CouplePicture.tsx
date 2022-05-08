@@ -5,8 +5,9 @@ import "../styles/font.css";
 const CouplePicture = () => {
 	return (
 		<>
-			<div className='couplepicture'/>
-			<h1 className="roseville maintitle">Adri&nbsp; &amp;Peti</h1>
+			<div className='couplepicture'>
+				<h1 className="roseville maintitle">Adri&nbsp; &amp;Peti</h1>
+			</div>
 		</>
 	);
 };

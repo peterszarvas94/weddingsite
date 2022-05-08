@@ -1,10 +1,6 @@
-:root {
-  --info-margin: 10em;
-}
-
 .card {
   position: relative;
-	margin: var(--info-margin) auto;
+	margin: 5em auto;
   padding: 0;
   font-size: 1em;
   text-align: center;
@@ -24,18 +20,17 @@
 .bouquet1 {
   width: 20em;
   position: absolute;
-  top: calc(var(--info-margin) * (-1) - 1em);
+  top: -10em;
   left: -5em;
   transform: rotate(20deg) scaleX(-1);
 }
 
 .bouquet2 {
-  /* display: none; */
   width: 15em;
   position: absolute;
   bottom: -5em;
   right: -7em;
-  transform: rotate(20deg) scale(1);
+  transform: rotate(20deg);
 }
 
 .invitation {

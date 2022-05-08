@@ -2,3 +2,12 @@ html,
 body {
   overflow-x: hidden;
 }
+
+body {
+  /* background-image: url('./img/eucalyptus_bouquet_03.png'); */
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+}
