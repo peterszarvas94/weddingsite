@@ -3,7 +3,7 @@ import "../styles/font.css";
 import "../styles/info.css";
 import "../styles/zindex.css";
 import EucalyptusBouquet from "../img/eucalyptus_bouquet_03.png";
-import CustomBouquet1 from "../img/custom_bouquet_01.png";
+import CustomBouquet from "../img/custom_bouquet_01.png";
 
 
 const Info = () => {
@@ -11,7 +11,7 @@ const Info = () => {
 		<article className="card">
 			<div className="info_container z1">
 				<img className="bouquet1 z2" alt="bouquet" src={EucalyptusBouquet} />
-				<img className="bouquet2 z2" alt="bouquet" src={CustomBouquet1} />
+				<img className="bouquet2 z2" alt="bouquet" src={CustomBouquet} />
 
 				<h2 className="waterbrush invitation z3">Meghívó</h2>
 
