@@ -1,21 +1,22 @@
-import React from 'react';
-import './App.css';
-import CouplePicture from './components/CouplePicture';
-import Info from './components/Info';
-import RSVP from './components/RSVP';
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Hungarian from "./pages/Hungarian";
+import English from "./pages/English";
 
 function App() {
-  return (
-    <div className="App">
-      <header>
-        <CouplePicture/>
-      </header>
-      <main>
-        <Info/>
-        <RSVP/>
-      </main>
-    </div>
-  );
+	return (
+		<div className="App">
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Home />} />
+          <Route path="/hu" element={<Hungarian />} />
+          <Route path="/en" element={<English />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;

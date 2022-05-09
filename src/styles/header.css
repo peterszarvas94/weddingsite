@@ -27,3 +27,16 @@
   text-shadow: 2px 2px 4px #222;
 
 }
+
+.language,
+.language:active,
+.language:hover,
+.language:focus {
+  position: absolute;
+  right: 3em;
+  top: 1em;
+  font-size: .8em;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}

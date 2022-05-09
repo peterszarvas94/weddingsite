@@ -4,10 +4,10 @@ body {
 }
 
 body {
-  /* background-image: url('./img/eucalyptus_bouquet_03.png'); */
+  background-image: url('./img/background.png');
   background-repeat: no-repeat;
-  background-position: 0, 0;
-  background-size: cover;
-  backdrop-filter: blur(5px);
+  background-position: center top;
+  background-size: 150%;
+  backdrop-filter: blur(10px);
   overflow: hidden;
 }
