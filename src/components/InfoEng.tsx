@@ -8,8 +8,10 @@ import CustomBouquet from "../img/custom_bouquet_01.png";
 
 const InfoEng = () => {
 	return (
-		<article className="card">
-			<div className="info_container z1">
+		<div className="info_container">
+			<div className="info_bg" />
+			<article className="card">
+				<div className="inv_container z1">
 				<img className="bouquet1 z2" alt="bouquet" src={EucalyptusBouquet} />
 				<img className="bouquet2 z2" alt="bouquet" src={CustomBouquet} />
 
@@ -29,7 +31,7 @@ const InfoEng = () => {
 				<p className="spectral_sc eternal z3">
 					to witness our vows to each other.
 					After the ceremony and the dinner,
-          we will start the celebration, until the sun is rises
+          we will start the celebration, until the sun rises
 				</p>
 
 				<div className="line"></div>
@@ -53,10 +55,11 @@ const InfoEng = () => {
 				<q className="spectral gift z3">
 					If a gift is on your mind,
 					<br />
-					A contribution would be kind.
+					A contribution would kind.
 				</q>
 			</div>
 		</article>
+		</div>
 	);
 };
 

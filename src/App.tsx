@@ -11,8 +11,8 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home />} />
-          <Route path="/hu" element={<Hungarian />} />
-          <Route path="/en" element={<English />} />
+					<Route path="/hu" element={<Hungarian />} />
+					<Route path="/en" element={<English />} />
 				</Routes>
 			</BrowserRouter>
 		</div>

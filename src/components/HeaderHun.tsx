@@ -5,14 +5,17 @@ import "../styles/font.css";
 
 const HeaderHun = () => {
 	return (
-		<>
-			<div className='couplepicture'>
+		<div className="header_container">
+			<div className="header_bg" />
+
+			<div className="couplepicture">
 				<h1 className="roseville maintitle">Adri&nbsp; &amp;Peti</h1>
-				<Link to={'/en'} className="language">
-					ENGLISH
-				</Link>
 			</div>
-		</>
+
+			<Link to={"/en"} className="language">
+				ENGLISH
+			</Link>
+		</div>
 	);
 };
 
