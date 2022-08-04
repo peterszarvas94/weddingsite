@@ -51,7 +51,7 @@ const InfoHun = () => {
 					<div className="waterbrush come z3">Szeretettel várunk!</div>
 
 					<q className="spectral gift z3">
-						Ajándékon ne tört fejed,
+						Ajándékon ne törd fejed,
 						<br />
 						Egy borítékban elrejtheted.
 					</q>
