@@ -1,3 +1,3 @@
-# Wedding invitation
+# ARCHIVED - Wedding invitation
 
 Created with React.
