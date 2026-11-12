@@ -10,4 +10,6 @@ npm run dev     # development server
 npm run build   # type-check, then static output in dist/
 ```
 
+The built site in `dist/` is committed so the output can be read and diffed; run `npm run build` and commit it along with source changes. The deployment builds from source regardless.
+
 Deployed on Coolify (server `hub`) from the `Dockerfile`, which builds the site and serves `dist/` with Caddy at https://wedding.peterszarvas.hu.
