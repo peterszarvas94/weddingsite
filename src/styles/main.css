@@ -1,0 +1,14 @@
+@import "./normalize.css";
+@import "./font.css";
+@import "./header.css";
+@import "./info.css";
+@import "./zindex.css";
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}

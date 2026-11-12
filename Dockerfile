@@ -2,10 +2,8 @@ FROM node:24-bookworm-slim AS build
 WORKDIR /src
 COPY package.json package-lock.json ./
 RUN npm ci
-COPY index.html tsconfig.json vite.config.ts ./
-COPY public/ public/
-COPY src/ src/
-RUN npm run build && test -s dist/index.html
+COPY . .
+RUN npm run build && test -s dist/hu/index.html && test -s dist/en/index.html
 
 FROM caddy:2.11-alpine
 COPY Caddyfile /etc/caddy/Caddyfile
