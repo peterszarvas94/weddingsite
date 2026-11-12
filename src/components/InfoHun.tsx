@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/font.css";
 import "../styles/info.css";
 import "../styles/zindex.css";

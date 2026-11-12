@@ -1,0 +1,16 @@
+{
+	admin off
+	persist_config off
+	auto_https off
+}
+
+:{$PORT:8080} {
+	root * /srv
+
+	# Vite output under /assets is content-hashed, so it is cached forever.
+	header /assets/* Cache-Control "public, max-age=31536000, immutable"
+
+	# Client-side routes (/hu, /en) fall back to the single-page app.
+	try_files {path} /index.html
+	file_server
+}
