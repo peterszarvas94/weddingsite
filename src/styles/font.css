@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 
 .waterbrush {
 	font-family: "Water Brush", cursive;
@@ -23,7 +22,6 @@
 	font-weight: 400;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
 
 .spectral_sc {
 	font-family: 'Spectral SC', serif;
@@ -32,7 +30,6 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 
 .spectral {
 	font-family: 'Spectral', serif;
@@ -40,7 +37,6 @@
 	font-weight: 400;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Martel&display=swap');
 
 .martel {
 	font-family: 'Martel', serif;

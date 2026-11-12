@@ -7,10 +7,16 @@
 :{$PORT:8080} {
 	root * /srv
 
+	# The Hungarian invitation is the home page.
+	redir / /hu/ 302
+
 	# Vite output under /assets is content-hashed, so it is cached forever.
 	header /assets/* Cache-Control "public, max-age=31536000, immutable"
 
-	# Client-side routes (/hu, /en) fall back to the single-page app.
-	try_files {path} /index.html
 	file_server
+
+	# Unknown paths land on the invitation, as the old single-page app did.
+	handle_errors 404 {
+		redir * /hu/ 302
+	}
 }
