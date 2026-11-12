@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderHun from "../components/HeaderHun";
 import InfoHun from "../components/InfoHun";
 

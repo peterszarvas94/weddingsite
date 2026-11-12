@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderEng from "../components/HeaderEng";
 import InfoEng from "../components/InfoEng";
 
